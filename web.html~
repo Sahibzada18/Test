@@ -1,0 +1,547 @@
+                                                                   
+<html>
+         <head>
+                 
+                                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+							                   </script>
+                                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+									            </script>
+								     <link rel="stylesheet"href="C:\Users\Asim\Desktop\bootstrap\css\bootstrap.min.css">
+						              <link rel="stylesheet"href="C:\Users\Asim\Desktop\bootstrap\extra\location.js"
+								<meta name="viewport" content="width=device-width, initial-scale=1">
+                            <style>
+							        .highlightit img{
+                                     border: 3px solid #8B4513;
+									 }
+									 .highlightit:hover img{
+                                     border: 1px solid navy;
+									 }
+                                    .highlightit:hover{color: red; 
+									/* Dummy definition to overcome IE bug */
+									}
+                                   *{box-sizing:border-box}
+                                    body
+									{
+									 background-color:red;
+										font-family: Verdana,sans-serif;
+								    	}
+                                       .mySlides{
+									   display:none}
+
+                                   /* Slideshow container */
+                                      .slideshow-container{
+                                       max-width: 1000px;
+                                       position: relative;
+                                       margin: auto;
+                                      }
+
+                                   /* Caption text */
+                                      .text{
+                                       color: #f2f2f2;
+                                       font-size: 15px;
+                                       padding: 8px 12px;
+                                       position: absolute;
+                                       bottom: 8px;
+                                       width: 100%;
+                                       text-align: center;
+                                      }
+
+                                   /* Number text (1/3 etc) */
+                                    .numbertext{
+                                     color: #f2f2f2;
+                                     font-size: 12px;
+                                     padding: 8px 12px;
+                                     position: absolute;
+                                     top: 0;
+                                      }
+
+                          /* The dots/bullets/indicators */
+                                       .dot{
+                                        height: 13px; 
+										width: 13px;margin: 0 2px; 
+										background-color: #bbb; 
+										border-radius: 50%; 
+										display: inline-block; 
+										transition: background-color 0.01s ease;
+                                          }
+
+                                     .active{
+                                        background-color: #717171;
+                                       }
+
+                                         /* Fading animation */
+                                           .fade{
+                                           -webkit-animation-name: fade;
+				                           -webkit-animation-duration: 3s;
+                                            animation-name: fade;
+                                            animation-duration: 3s;
+                                               } 
+											   @-webkit-keyframes fade {
+                                          from { opacity: .4}
+                                              to {opacity: 1}
+                                                  }
+
+                                                @keyframes fade {
+                                                from {opacity: .4}
+                                                to {opacity: 1}
+                                                 }
+
+                                       /* On smaller screens, decrease text size */
+                                           @media only screen and (max-width: 300px) {
+                                           .text {font-size: 11px}
+                                              }													 
+										     /*body 
+										            {
+					                              background-color:red;
+					                                }*/
+				            </style>
+									 
+                                    </head>
+           <body>
+                   <div id="a" style="background-color:#770B16; padding:10px">
+                   </div>
+                   <div id="a" style="background-color:#56070F;color:white;padding:5px">
+				     <a style="padding-left:5%"> <img src="logo.PNG"width="120"height="120"></img></a>
+					
+					<form action="">
+					<p style="color:black"align="right"><input class="highlightit"type="text" value="user name" required>
+					 <input class="highlightit"type="password" value="Password"required>
+					 <input class="highlightit" type="submit"value="login">
+					 </br>
+					 <a class="highlightit"href=""style="color:pink">Forget Password</a></p>
+					 </form>
+					 
+					 
+                       <ul class="nav nav-tabs" style="padding-left:50%">
+                       <li><a href="file:///C:/Users/Asim/Desktop/websites/login%20from.html"style="color:white">HOME</a></li>
+                       <li><a href="#"style="color:white">HELP LINE</a></li>
+	                   <li><a href="#"style="color:white">FAQ</a></li>
+                       <li><a href="#"style="color:white">ABOUT US</a></li>
+                       <li><a href="#"style="color:white">CONTACT</a></li>
+                       <li><a href="file:///C:/Users/Asim/Desktop/websites/singup.html"style="color:white">SIGNUP</a></li>
+                                  </ul>
+                           </div>
+                       <div id="c"style="background-color:green;color:pink width:1000px;height:400px;float:left">
+                             <div class="slideshow-container">
+                                  <div class="mySlides fade">
+                                        <div class="numbertext">1 / 7</div>
+                                             <img src="Banner1.jpg" style="width:100%;height:100%">
+                                                   <div class="text">Caption Text</div>
+                                  </div>
+                               <div class="mySlides fade">
+                                    <div class="numbertext">2 / 7</div>
+                                    <img src="o-BLOOD-DONATION-MAN-facebook.jpg" style="width:100%;height:100%">
+                                    <div class="text">Caption Two</div>
+                               </div>
+
+                                <div class="mySlides fade">
+                                   <div class="numbertext">3 / 7</div>
+                                        <img src="02.jpg" style="width:100%;height:100%">
+                                            <div class="text">Caption Three</div>
+                                </div>
+
+                                     <div class="mySlides fade">
+                                       <div class="numbertext">4 / 7</div>
+                                           <img src="Side_blood_bags.jpg" style="width:100%;height:100%">
+                                              <div class="text">Caption four</div>
+                                     </div>
+                                     
+									 <div class="mySlides fade">
+                                       <div class="numbertext">5 / 7</div>
+                                           <img src="o-BLOOD-DONATION-MAN-facebook.jpg" style="width:100%;height:100%">
+                                              <div class="text">Caption five</div>
+                                     </div>
+                              
+							          <div class="mySlides fade">
+                                         <div class="numbertext">6 / 7</div>
+                                             <img src="world-blood-donors-day-slogans-and-quotes.jpg" style="width:100%;height:100%">
+                                               <div class="text">Caption six</div>
+                                      </div>
+                                         
+									  <div class="mySlides fade">
+                                          <div class="numbertext">7 / 7</div>
+                                            <img src="maxresdefault.jpg" style="width:100%;height:100%">
+                                                <div class="text">Caption siven</div>
+                                      </div>
+                                </div>
+                                            </br>
+
+                                <div style="text-align:center">
+								   <span class="dot"></span>
+								   <span class="dot"></span>
+								   <span class="dot"></span>
+								   <span class="dot"></span>
+                                   <span class="dot"></span>
+	                               <span class="dot"></span> 
+	                               <span class="dot"></span>
+                                   
+							   </div>
+                                     </div>												 
+                            <div style="background-color:#BF290C">                                
+								<p align="center" style="color:white">
+                                   <font size="6">
+                                      BLOOD SEEKERS
+	                               </font>
+	                             </p>
+	         
+                      			 <p style="color:white"align="center"> 
+			                          Select Your Country? 
+					             </p>
+			      
+                  				  <p align="center"class="highlightit">  	
+				                    <select>
+				                      <option>...country...</option>
+				                      <option>pakistan</option>
+				                    </select>
+				                  </p>
+                                       <p align="center" style="color:white"> 	
+				                          select yor province?
+				                         </br>
+										 </p> 
+									<p class="highlightit"align="center">
+				                <select id="opts" onchange="showForm()">
+                                     <option value="0">Select province</option>
+                                     <option value="1">Punjab</option>
+                                     <option value="2">Blochistan</option>
+	                                 <option value="3">Sindh</option>
+	                                 <option value="4">Gilgit Baltistan</option>
+	                                 <option value="5">Azad kashmir</option>
+	                                 <option value="6">Khyber Pakhtunkhwa</option>
+	  
+                                </select>
+                                         </p>
+                           <p style="color:white"align="center"> 
+			                          Select Your district? 
+					             </p>
+   <div id="f1" align="center"class="highlightit">
+    <form name="form1">
+        <select id="opts" onchange="showForm()">
+            <option value="0">Select District</option>
+            <option value="1">Attock</option>
+            <option value="3">Bahawalnagar</option>
+			<option value="4">Bahawalpur</option>
+		    <option value="5">Bhakkar</option>
+            <option value="6">Chakwal</option>    
+			<option value="7">Dera Ghazi Khan</option> 
+			<option value="8">Faisalabad</option> 
+			<option value="9">Gujranwala</option> 
+			<option value="10">Gujrat</option> 
+			<option value="11">Hafizabad</option> 
+			<option value="12">Jhang</option> 
+			<option value="13">Jhelum</option> 
+			<option value="14">Kasur</option> 
+			<option value="15">Khanewal</option> 
+			<option value="16">Khushab</option> 
+			<option value="17">Lahore</option> 
+			<option value="18">Layyah</option> 
+			<option value="19">Lodhran</option> 
+			<option value="20">Mandi Bahauddin</option> 
+			<option value="21">Mianwali</option> 
+			<option value="22">Multan</option> 
+			<option value="23">Muzaffargarh</option> 
+			<option value="24">Nankana Sahib</option>
+			<option value="25">Narowal</option> 
+			<option value="26">Okara</option> 
+			<option value="27">Pakpattan</option> 
+			<option value="28">Rahim Yar Khan</option> 
+			<option value="29">Rajanpur</option> 
+			<option value="30">Rawalpindi</option> 
+			<option value="31">Sahiwal</option> 
+			<option value="32">Sargodha</option> 
+			<option value="33">Sheikhupura</option> 
+			<option value="34">Sialkot</option> 
+			<option value="35">Toba Tek Singh</option> 
+			<option value="36">Vehari</option> 
+		</select>
+    </form>
+</div>
+
+<div class="highlightit"id="f2" style="display:none"align="center">
+    <form name="form2">
+        <select id="opts" onchange="showForm()">
+            <option value="0">Select District</option>
+            <option value="1">Awaran</option>
+            <option value="2">Barkhan</option>
+			<option value="3">Bolan</option>
+		    <option value="4">Chagai</option>
+			<option value="5">Dera Bugti</option>
+			<option value="6">Gwadar</option>
+		    <option value="7">Jaffarabad</option>
+			<option value="8">Jhal Magsi</option>
+		    <option value="9">Kachhi</option> 
+		    <option value="10">Kalat</option>
+		    <option value="11">Kech</option>
+		    <option value="12">Kharan</option>
+		    <option value="13">Khuzdar</option>
+		    <option value="14">Kila Abdullah</option>
+		    <option value="15">Kila Saifullah</option>
+		    <option value="16">Kohlu</option>
+		    <option value="17">Lasbela</option>
+		    <option value="18">Loralai</option>
+		    <option value="19">Mastung</option>
+			<option value="20">Musakhel</option>
+		    <option value="21">Nasirabad</option>
+		    <option value="22">Panjgur</option>
+		    <option value="23">Pishin</option>
+			<option value="24">Quetta</option>
+		    <option value="25">Sibi</option>
+		    <option value="26">Zhob</option>
+		    <option value="27">Ziarat</option>
+		    <option value="28">Pishin</option>				 	   
+        </select>
+    </form>
+</div>
+
+<div class="highlightit" id="f3" style="display:none"align="center">
+    <form name="form3">
+        <select id="opts" onchange="showForm()">
+            <option value="0">Select District</option>
+            <option value="1">Badin</option>
+            <option value="2">Dadu</option>
+			<option value="3">Ghotki</option>
+		    <option value="4">Hyderabad</option>
+			<option value="5">Jacobabad</option>
+			<option value="6">Jamshoro</option>
+		    <option value="7">Kamber & Shahdad Kot</option>
+			<option value="8">Karachi</option>
+		    <option value="9">Kashmore</option> 
+		    <option value="10">Khairpur</option>
+		    <option value="11">Larkana</option>
+		    <option value="12">Matiari</option>
+		    <option value="13">Mirpurkhas</option>
+		    <option value="14">Naushahro Feroze</option>
+		    <option value="15">Nawabshah</option>
+		    <option value="16">Sanghar</option>
+		    <option value="17">Shikarpur</option>
+		    <option value="18">Sukkur</option>
+		    <option value="19">Tando Allahyar</option>
+			<option value="20">Tando Muhammad Khan</option>
+		    <option value="21">Tharparkar</option>
+		    <option value="22">Thatta</option>
+		    <option value="23">Umerkot</option>
+				  			 	   
+       </select>
+    </form>
+</div>
+
+<div class="highlightit"id="f4"style="display:none" align="center">
+    <form name="form4">
+        <select id="opts" onchange="showForm()">
+            <option value="0">Select District</option>
+            <option value="1">Ghanche</option>
+            <option value="2">Skardu</option>
+			<option value="3">Shigar</option>
+		    <option value="4">Kharmang</option>
+			<option value="5">Astore</option>
+			<option value="6">Diamer</option>
+		    <option value="7">Ghizer</option>
+			<option value="8">Gilgit</option>
+		    <option value="9">Hunza</option> 
+		    <option value="10">Nagar</option>
+		    			  			 	   
+       </select>
+    </form>
+</div>
+
+
+
+<div id="f5"class="highlightit" style="display:none"align="center">
+    <form name="form5">
+        <select id="opts" onchange="showForm()">
+            <option value="0">Select District</option>
+            <option value="1">Bhimber	</option>
+            <option value="2">Kotli</option>
+			<option value="3">Mirpur</option>
+		    <option value="4">Bagh</option>
+			<option value="5">Muzaffargarh</option>
+			<option value="6">Neelum</option>
+		    <option value="7">Poonch</option>
+			<option value="8">Sudhnati</option>
+		   
+       </select>
+    </form>
+</div>
+
+
+<div id="f6"class="highlightit" style="display:none"align="center">
+    <form name="form6">
+        <select id="opts" onchange="showForm()">
+            <option value="0">Select District</option>
+            <option value="1">Abbottabad</option>
+            <option value="2">Bannu</option>
+			<option value="3">Batagaram</option>
+		    <option value="4">Buner</option>
+			<option value="5">Charsadda</option>
+			<option value="6">Chitral</option>
+		    <option value="7">Dera Ismail Khan</option>
+			<option value="8">Hangu</option>
+		    <option value="9">Haripur</option> 
+		    <option value="10">Karak</option>
+		    <option value="11">Kohat</option>
+		    <option value="12">Kohistan</option>
+		    <option value="13">Lakki Marwat</option>
+		    <option value="14">Lower Dir</option>
+		    <option value="15">Malakand P.A</option>
+		    <option value="16">Mansehra</option>
+		    <option value="17">Mardan</option>
+		    <option value="18">Nowshera</option>
+		    <option value="19">Peshawar</option>
+			<option value="20">Shangla</option>
+		    <option value="21">Swabi</option>
+		    <option value="22">Swat</option>
+		    <option value="23">Tank</option>
+			<option value="24">Upper Dir</option>
+		   				 	   
+        </select>
+    </form>
+</div>
+							     
+				
+				                  
+                            	
+								   <p style="color:white"align="center">
+				                       Choose Blood Group?
+			                       </p>	
+                                 
+								   <p align="center"class="highlightit">				
+                         	          <select>
+				                          <option>...Blood Group...</option>
+				                          <option>O(+tive)</option>
+										  <option>O(-tive)</option>
+										  <option>A(+tive)</option>
+										  <option>A(-tive) </option>
+										  <option>B(+tive)</option>
+										  <option>B(-tive) </option>
+										  <option>AB(+tive) </option>
+										  <option>AB(-tive) </option>
+		                             </select>		</p>
+				                         </br>
+										 <p align="center">
+                                         <input class="highlightit"type="submit" name="srch"value="SEARCH">	
+                                         
+										 </br></br></br>	
+										   
+										 <div id="a" style="background-color:black;padding:2px">
+									     </div> 
+											</div>				                       					      
+								<div style="background-color:white">
+								
+								<p> 
+								    <font size="2"style="color:black">
+								Click on icon To get</br>Andriod App</br>								
+								</font></p>
+                                     <a href=""class="highlightit"> <img border="0" src="3d-Wallpapers-For-Android-8.jpg"width="100"height="100" /></a>
+                                     <a href="" class="highlightit"><img border="0"src="info.png"width="170"height="100"/></a>
+                                     <a href=""class="highlightit"> <img border="0"src="eligible.png" width="170"height="100"/></a>
+									 <a href=""class="highlightit"><img border="0"src="process.png" width="170"height="100"/></a>
+									 <a href=""class="highlightit"><img border="0"src="type.png" width="170"height="100"/></a>
+									 <a href=""class="highlightit"><img border="0"src="already.png" width="170"height="100"/></a>
+								      </div>
+									  <div id="a" style="background-color:white; padding:2px">                                 
+		        					  </div>
+								       
+                                 		<div style="background-color:#770B16">						
+									<p>
+									  <font size="2"style="color:white;padding-left:5%">
+									  follow us
+									  </font>
+									  </p>
+                      					<a href="#" class="highlightit"><img border="0"src="fb-purple_new-keiro.png"width="50"height="50"></a>
+					                    <a href="#" class="highlightit"><img border="0"src="logo-twitter.png"width="50"height="50"></a>
+					                    <a href="#" class="highlightit"><img border="0"src="Linkedin_circle.svg.png"width="50"height="50"></a>
+										<a href="#" class="highlightit"><img border="0"src="images (1).png"width="50"height="50"></a>
+								</div>
+								<div id="a" style="background-color:black; padding:2px">                                 
+								      
+									  </div>
+                    <script type="text/javascript">
+    function showForm() {
+        var selopt = document.getElementById("opts").value;
+        if (selopt == 1) {
+            document.getElementById("f1").style.display = "block";
+            document.getElementById("f2").style.display = "none";
+			document.getElementById("f3").style.display = "none";
+			document.getElementById("f4").style.display = "none";
+			document.getElementById("f5").style.display = "none";
+			document.getElementById("f6").style.display = "none";
+        }
+       else if (selopt == 2) {
+	
+            document.getElementById("f2").style.display = "block";
+            document.getElementById("f1").style.display = "none";
+            document.getElementById("f3").style.display = "none";
+		    document.getElementById("f4").style.display = "none";
+		    document.getElementById("f5").style.display = "none";
+			document.getElementById("f6").style.display = "none";
+		}
+       else if (selopt == 3) {
+            document.getElementById("f3").style.display = "block";
+            document.getElementById("f1").style.display = "none";
+			document.getElementById("f2").style.display = "none";
+			document.getElementById("f4").style.display = "none";
+			document.getElementById("f5").style.display = "none";
+			document.getElementById("f6").style.display = "none";
+        }
+	   else if (selopt == 4) {
+            document.getElementById("f4").style.display = "block";
+            document.getElementById("f1").style.display = "none";
+			document.getElementById("f2").style.display = "none";
+			document.getElementById("f3").style.display = "none";
+			document.getElementById("f5").style.display = "none";
+			document.getElementById("f6").style.display = "none";
+        }
+	   else if (selopt == 5) {
+            document.getElementById("f5").style.display = "block";
+            document.getElementById("f1").style.display = "none";
+			document.getElementById("f2").style.display = "none";
+			document.getElementById("f3").style.display = "none";
+			document.getElementById("f4").style.display = "none";
+			document.getElementById("f6").style.display = "none";
+        }
+	   else if (selopt == 6) {
+            document.getElementById("f6").style.display = "block";
+            document.getElementById("f1").style.display = "none";
+			document.getElementById("f2").style.display = "none";
+			document.getElementById("f3").style.display = "none";
+			document.getElementById("f4").style.display = "none";
+			document.getElementById("f5").style.display = "none";
+        }
+		   else{
+            document.getElementById("f1").style.display = "block";
+            document.getElementById("f2").style.display = "none";
+			document.getElementById("f3").style.display = "none";
+			document.getElementById("f4").style.display = "none";
+			document.getElementById("f5").style.display = "none";
+			document.getElementById("f6").style.display = "none";
+        }
+		 
+    }
+					
+									 var slideIndex = 0;
+                                     showSlides();
+
+                                      function showSlides() {
+                                      var i;
+                                      var slides = document.getElementsByClassName("mySlides");
+                                      var dots = document.getElementsByClassName("dot");
+                                       for (i = 0; i < slides.length; i++) {
+                                       slides[i].style.display = "none";
+                                           }
+                                       slideIndex++;
+                                       if (slideIndex> slides.length) {slideIndex = 1}
+                                         
+										 for (i = 0; i < dots.length; i++) {
+                                         dots[i].className = dots[i].className.replace(" active", "");
+                                                 }
+    
+	                                      slides[slideIndex-1].style.display = "block";
+                                          dots[slideIndex-1].className += " active";
+                                          setTimeout(showSlides, 3000); // Change image every 2 seconds
+                                                 }
+												  
+												  
+											
+                      </script>
+    </body>
+</html>
